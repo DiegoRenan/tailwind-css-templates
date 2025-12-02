@@ -34,6 +34,23 @@ function App() {
         <div className="bg-blue-700 m-2 p-10"> Box 2</div>
         <div className="bg-blue-700 m-2 p-10"> Box 3</div>
       </div>
+
+      <hr />
+      <h1 className='container mx-auto text-2xl my-5'>Flex wrap</h1>
+      <div className="flex flex-row flex-wrap bg-teal-700 ">
+        <div className="bg-teal-100 m-2 p-10"> Box 1</div>
+        <div className="bg-teal-200 m-2 p-10"> Box 2</div>
+        <div className="bg-teal-300 m-2 p-10"> Box 3</div>
+        <div className="bg-teal-400 m-2 p-10"> Box 4</div>
+        <div className="bg-teal-500 m-2 p-10"> Box 5</div>
+        <div className="bg-teal-500 m-2 p-10"> Box 5</div>
+        <div className="bg-teal-500 m-2 p-10"> Box 5</div>
+        <div className="bg-teal-500 m-2 p-10"> Box 5</div>
+        <div className="bg-teal-500 m-2 p-10"> Box 5</div>
+        <div className="bg-teal-500 m-2 p-10"> Box 5</div>
+        <div className="bg-teal-500 m-2 p-10"> Box 5</div>
+        <div className="bg-teal-500 m-2 p-10"> Box 5</div>
+      </div>      
     </>
   )
 }
