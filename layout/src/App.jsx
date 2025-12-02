@@ -76,6 +76,15 @@ function App() {
         <div className="absolute bottom-0 right-0 bg-gray-700 text-white p-2">Absolute Bottom Right</div>
         <div className="relative bg-gray-500 text-white p-2 top-10 left-10">Relative Top 10 Left 10</div>
       </div>
+
+      <hr />
+      <h1 className='container mx-auto text-2xl my-5'>Visible vs Display</h1>
+      <div className="container mx-auto">
+        <div className="visible bg-red-300 border-2">div visible</div>
+        <div className="invisible bg-red-300 border-2 p-5">div invisible My size still counts</div>
+        <div className="border-2 bg-blue-500">Div display</div>
+        <div className="border-2 bg-blue-500 hidden p-10 my-10">Div hidden My size does not count</div>
+      </div>
     </>
   )
 }
