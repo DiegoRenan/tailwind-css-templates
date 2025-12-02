@@ -85,6 +85,14 @@ function App() {
         <div className="border-2 bg-blue-500">Div display</div>
         <div className="border-2 bg-blue-500 hidden p-10 my-10">Div hidden My size does not count</div>
       </div>
+
+      <hr />
+      <h1 className='container mx-auto text-2xl my-5'>Z-Index</h1>
+      <div className="relative bg-gray-300 h-40 w-40">
+        <div className="absolute bg-red-500 text-white p-2 z-10">Frente 10</div>
+        <div className="absolute bg-blue-500 text-white p-4 z-0">Atras 0</div>
+        <div className="absolute top-30 left-30 bg-green-500 text-white p-2 z-20">Z-Index 20</div>
+      </div>
     </>
   )
 }
