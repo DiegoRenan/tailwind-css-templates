@@ -25,6 +25,23 @@ function App() {
       <div className="container box-content bg-green-700 m-10 p-10 border-2">
         Box box-content size = size + (padding + border)
       </div>
+
+      <h2>Display in-line vs Display block</h2><hr />
+      <div className="container mx-auto py-1">
+          <span className="block bg-red-300 border-2">Span in block</span>
+          <span className="block bg-red-300 border-2">Span in block 2</span>
+          <div className="inline-block border-2 bg-blue-500">Div in-line</div>
+          <div className="inline-block border-2 bg-blue-500">Div in-line 2</div>
+          <div className="border-2 bg-blue-500 hidden"></div>
+      </div>
+
+      <h2>Float</h2><hr />
+      <div className="bg-gray-500 float-right">Float Right</div>
+      <div className="bg-gray-700 float-left">Float Left</div>
+      <div className="clear-both"></div>
+      <div className="bg-gray-500 float-right">Float Right</div>
+      <div className="bg-gray-700 float-left">Float Left</div>
+      
     </>
   )
 }
