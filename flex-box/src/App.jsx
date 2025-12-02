@@ -50,7 +50,35 @@ function App() {
         <div className="bg-teal-500 m-2 p-10"> Box 5</div>
         <div className="bg-teal-500 m-2 p-10"> Box 5</div>
         <div className="bg-teal-500 m-2 p-10"> Box 5</div>
-      </div>      
+      </div>
+
+      <hr />
+      <h1 className='container mx-auto text-2xl my-5'>Flex 1</h1>
+      <div className="flex container bg-green-100 ">
+        <div className="flex-1 bg-green-300 p-10"> Box 1</div>
+        <div className="flex-1 bg-green-400 p-10"> Box 2</div>
+        <div className="flex-none bg-green-500 p-10"> Box 3</div>
+      </div>
+
+      <hr />
+      <h1 className='container mx-auto text-2xl my-5'>Order</h1>
+      <div className="flex flex-col bg-purple-300 ">
+        <div className="bg-purple-700 m-2 p-10 order-last"> Box 1</div>
+        <div className="bg-purple-700 m-2 p-10 order-3"> Box 2</div>
+        <div className="bg-purple-700 m-2 p-10 order-2"> Box 3</div>
+        <div className="bg-purple-700 m-2 p-10 order-first"> Box 4</div>
+      </div>
+      
+      <hr />
+      <h1 className='container mx-auto text-2xl my-5'>Order com breakpoint</h1>
+      <div className="flex flex-row bg-blue-300 ">
+        <div className="bg-blue-700 m-2 p-10 lg:order-4"> Box 1</div>
+        <div className="bg-blue-700 m-2 p-10 lg:order-3"> Box 2</div>
+        <div className="bg-blue-700 m-2 p-10 lg:order-2"> Box 3</div>
+        <div className="bg-blue-700 m-2 p-10 lg:order-1"> Box 4</div>
+      </div>
+
+      
     </>
   )
 }
