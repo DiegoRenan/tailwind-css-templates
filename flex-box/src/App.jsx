@@ -78,7 +78,40 @@ function App() {
         <div className="bg-blue-700 m-2 p-10 lg:order-1"> Box 4</div>
       </div>
 
+      <hr />
+      <h1 className='container mx-auto text-2xl my-5'>Grid</h1>
+      <div className="grid grid-cows-4">
+        <div className="col-span-4 bg-blue-500 p-5"> Header</div>
+        <div className="col-span-1 bg-red-300 p-10"> Nav</div>
+        <div className="col-span-3 bg-red-400 p-10"> Main</div>
+        <div className="col-span-4 bg-blue-500 p-5"> Footer</div>
+      </div>
+
+      <hr />
+      <h1 className='container mx-auto text-2xl my-5'>Grid linear</h1>
+      <div className="grid grid-rows-4 grid-flow-col">
+        <div className="bg-blue-500">1</div>
+        <div className="bg-red-300">2</div>
+        <div className="bg-red-4000">3</div>
+        <div className="bg-blue-500">4</div>
+        <div className="bg-blue-500">1</div>
+        <div className="bg-red-300">2</div>
+        <div className="bg-red-4000">3</div>
+        <div className="bg-blue-500">4</div>
+      </div>
       
+      <hr />
+      <h1 className='container mx-auto text-2xl my-5'>Grid linear com Gap</h1>
+      <div className="grid grid-rows-4 grid-flow-col gap-4">
+        <div className="bg-blue-500">1</div>
+        <div className="bg-red-300">2</div>
+        <div className="bg-red-4000">3</div>
+        <div className="bg-blue-500">4</div>
+        <div className="bg-blue-500">1</div>
+        <div className="bg-red-300">2</div>
+        <div className="bg-red-4000">3</div>
+        <div className="bg-blue-500">4</div>
+      </div>
     </>
   )
 }
