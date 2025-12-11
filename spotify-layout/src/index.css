@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+  --spacing-spotify-14: 3.5rem;
+  --spacing-spotify-125px: 125px;
+
+  --color-spotify-hover: #18D760;
+  --color-spotify-purple: #2D4689;
+  --color-spotify-green:  #1ED760;
+
+  --background-image-spotify-theme: url('/src/assets/images/bursts.svg');
+  --background-image-spotify-theme-mobile: url('/src/assets/images/bursts-mobile.svg');
+}
